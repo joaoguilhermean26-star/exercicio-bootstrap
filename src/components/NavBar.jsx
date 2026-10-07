@@ -11,18 +11,6 @@ function NavBar({ paginaAtual, onMudarPagina }) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
-              active={paginaAtual === "matricula"}
-              onClick={() => onMudarPagina("matricula")}
-            >
-              Matrícula
-            </Nav.Link>
-            <Nav.Link
-              active={paginaAtual === "alunos"}
-              onClick={() => onMudarPagina("alunos")}
-            >
-              Alunos
-            </Nav.Link>
-            <Nav.Link
               active={paginaAtual === "livros"}
               onClick={() => onMudarPagina("livros")}
             >
